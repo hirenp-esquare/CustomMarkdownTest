@@ -27,7 +27,7 @@ jobs:
 
       - name: Find and Replace step
         id: fn
-        uses: hirenp-waferwire/custom-markdown-action@main@main
+        uses: hirenp-waferwire/custom-markdown-action@main
         with:
           GlobPath: '*.md'
           
