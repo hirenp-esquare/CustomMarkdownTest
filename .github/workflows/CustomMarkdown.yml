@@ -33,7 +33,8 @@ jobs:
         uses: hirenp-waferwire/custom-markdown-action@main
         with:
           GlobPath: '**/*.md'
-          abbreviation_file: 'test'
+          AbbreviationFileName: 'Abbreviations'
+          PrepositionsFileName: 'Prepositions'
           
       
       
